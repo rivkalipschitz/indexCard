@@ -1,0 +1,39 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.card{
+    background-color: rgb(158, 158, 158);
+    border: 1px black;
+    width: 950px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.button {
+    margin: 20px;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+div{
+    font-size: 300px;
+    -webkit-animation-name: em;
+    -webkit-animation-duration: 3s;
+    animation-name: em;
+    animation-duration: 3s;  
+    animation-iteration-count: 8;
+}
+
+@-webkit-keyframes em{
+   from{color: black;}
+   to{color: black; font-style: italic;}
+}
+
